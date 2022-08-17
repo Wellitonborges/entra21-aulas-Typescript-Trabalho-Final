@@ -7,6 +7,7 @@ export class Person{
     public address:string
     public genre:string
 
+    // construtor //
     constructor(name:string,birth:Date,cpf:number,nameMother:string,nameFather:string,address:string,genre:string){
     this.name=name
     this.birth=birth
@@ -16,4 +17,10 @@ export class Person{
     this.address=address
     this.genre=genre
     } 
+ apresentar():string{
+
+
+        return `Oi meu Nome é ${this.name} `
     }
+    }
+   
